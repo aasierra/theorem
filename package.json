@@ -1,0 +1,19 @@
+{
+  "name": "theorem",
+  "description": "A ES6 transpiled via Babel to ES5 library that adds methods to the Math class for working with JS.",
+  "version": "1.0.4",
+  "homepage": "https://github.com/aasierra/theorem",
+  "author": {
+    "name": "Anthony A Sierra",
+    "email": "aasierra@live.com",
+    "url": "http://anthonysierra.com/"
+  },
+  "devDependencies": {
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-concat":"2.6.0",
+    "babel-preset-es2015":"6.0.14",
+    "babel-plugin-transform-object-rest-spread":"6.0.14",
+    "gulp-babel":"6.0.0",
+    "gulp":"3.9.0"
+  }
+}
