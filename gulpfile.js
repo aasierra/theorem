@@ -28,6 +28,6 @@ gulp.task('buildTests', ['default'], function () {
 
 gulp.task('test', ['buildTests'], function () {
   var mocha = require('gulp-mocha');
-  gulp.src("./built-tests/GCD-test.js", {read:false})
+  gulp.src("./built-tests/*.js", {read:false})
   .pipe(mocha({reporter:'nyan'}));
 });
